@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VetCare | Clínica Veterinaria de Confianza</title>
+    
+    <!-- SEO & Meta Tags -->
+    <meta name="description" content="VetCare es una clínica veterinaria de servicio completo que ofrece consultas, cirugías, y peluquería para tus mascotas. Nuestro equipo de expertos está aquí para cuidar de tu mejor amigo.">
+    <meta name="keywords" content="veterinaria, clínica veterinaria, mascotas, perros, gatos, cuidado animal, cirugia veterinaria, peluqueria canina">
+    <meta name="author" content="VetCare">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXwtNhuN5DuUld2wAs5sOjYnDuDyXVw3RwIQ&s" type="image/x-icon">
+</head>
+<body>
+
+    <!-- ====================================================== -->
+    <!-- =================== NAVBAR =========================== -->
+    <!-- ====================================================== -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#inicio"><i class="fas fa-paw me-2"></i>VetCare</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicios">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#equipo">Equipo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonios">Testimonios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ====================================================== -->
+        <!-- =================== INICIO / HERO ==================== -->
+        <!-- ====================================================== -->
+        <section id="inicio" class="hero-section text-white text-center d-flex align-items-center justify-content-center">
+            <div class="hero-overlay"></div>
+            <div class="container position-relative">
+                <h1 class="display-3 fw-bold">El Mejor Cuidado Para Tu Mejor Amigo 🐾❤️</h1>
+                <p class="lead my-4">En VetCare, tratamos a cada mascota como si fuera nuestra. Ofrecemos un cuidado compasivo y profesional para garantizar su salud y felicidad.</p>
+                <a href="#contacto" class="btn btn-lg btn-cta">¡Agenda una Cita!</a>
+            </div>
+        </section>
+
+        <!-- ====================================================== -->
+        <!-- =================== SERVICIOS ======================== -->
+        <!-- ====================================================== -->
+        <section id="servicios" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5 section-title">Nuestros Servicios</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card service-card h-100 shadow-sm">
+                            <img src="https://purina.com.do/sites/default/files/2022-10/purina-consulta-veterinaria-para-mascotas-lo-que-debes-saber.jpg" class="card-img-top" alt="Consulta General">
+                            <div class="card-body text-center">
+                                <div class="service-icon"><i class="fas fa-stethoscope"></i></div>
+                                <h5 class="card-title mt-3">Consulta General</h5>
+                                <p class="card-text">Chequeos de rutina, vacunación y desparasitación para mantener a tu mascota saludable.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card service-card h-100 shadow-sm">
+                            <img src="https://holavet.com.ar/wp-content/uploads/2022/04/close-up-on-veterinarian-taking-care-of-pet-1.webp" class="card-img-top" alt="Cirugías">
+                            <div class="card-body text-center">
+                                <div class="service-icon"><i class="fas fa-syringe"></i></div>
+                                <h5 class="card-title mt-3">Cirugías</h5>
+                                <p class="card-text">Realizamos desde procedimientos menores hasta cirugías complejas con la última tecnología.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card service-card h-100 shadow-sm">
+                            <img src="https://neozoo.com.ar/wp-content/uploads/2023/06/Iconos-e-imagenes-09.png" class="card-img-top" alt="Peluquería">
+                            <div class="card-body text-center">
+                                <div class="service-icon"><i class="fas fa-cut"></i></div>
+                                <h5 class="card-title mt-3">Peluquería y Estética</h5>
+                                <p class="card-text">Servicios de baño, corte de pelo y uñas para que tu mascota luzca y se sienta genial.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================================================== -->
+        <!-- =================== EQUIPO =========================== -->
+        <!-- ====================================================== -->
+        <section id="equipo" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5 section-title">Nuestro Equipo Profesional</h2>
+                <div class="row text-center g-4">
+                    <div class="col-lg-4">
+                        <div class="team-member p-4 bg-white shadow-sm rounded">
+                            <img src="https://st.depositphotos.com/1001951/4411/i/950/depositphotos_44117761-stock-photo-young-positive-brunette-veterinary-woman.jpg" class="img-fluid rounded-circle mb-3 team-photo" alt="Dra. Ana López">
+                            <h5 class="fw-bold">Dra. Margarita Ramirez </h5>
+                            <p class="text-muted">Especialista en Medicina Interna</p>
+                            <p>Con más de 10 años de experiencia, la Dra. Margarita Ramirez es una apasionada del diagnóstico y tratamiento de enfermedades complejas en perros y gatos.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member p-4 bg-white shadow-sm rounded">
+                            <img src="data:image/jpeg;base64,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" class="img-fluid rounded-circle mb-3 team-photo" alt="Dr. Carlos Méndez">
+                            <h5 class="fw-bold">Dr. Steven Vargas </h5>
+                            <p class="text-muted">Cirujano Jefe</p>
+                            <p>El Dr. Steven Vargas lidera nuestro equipo quirúrgico con precisión y cuidado, especializándose en ortopedia y tejidos blandos.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member p-4 bg-white shadow-sm rounded">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuLb4WG7LseRPVDb_s8eRR54qZQdi-dbIt-A&s" class="img-fluid rounded-circle mb-3 team-photo" alt="Dra. Laura Gómez">
+                            <h5 class="fw-bold">Dra. beriguete Gómez</h5>
+                            <p class="text-muted">Especialista en Animales Exóticos</p>
+                            <p>La Dra. Gómez tiene un amor especial por las mascotas no tradicionales, ofreciendo cuidados expertos para aves, reptiles y pequeños mamíferos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ====================================================== -->
+        <!-- =================== TESTIMONIOS ====================== -->
+        <!-- ====================================================== -->
+        <section id="testimonios" class="py-5">
+            <div class="container-fluid">
+                <h2 class="text-center mb-5 section-title">Lo que dicen nuestros clientes</h2>
+                <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- Slide 1 -->
+                        <div class="carousel-item active">
+                            <div class="row justify-content-center gx-4">
+                                <!-- Testimonio 1 -->
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="testimonial-card rainbow-border">
+                                        <img src="https://randomuser.me/api/portraits/men/32.jpg" class="testimonial-img heartbeat" alt="Cliente 1">
+                                        <h5 class="mt-3">Juan Pérez <i class="fas fa-dog text-muted"></i></h5>
+                                        <p class="testimonial-text">"¡Increíble servicio! Mi perro 'Rocky' nunca había estado tan tranquilo en el veterinario. Gracias Dra. López. 👏"</p>
+                                    </div>
+                                </div>
+                                <!-- Testimonio 2 -->
+                                <div class="col-lg-3 col-md-6 d-none d-md-block">
+                                    <div class="testimonial-card rainbow-border">
+                                        <img src="https://randomuser.me/api/portraits/women/26.jpg" class="testimonial-img heartbeat" alt="Cliente 2">
+                                        <h5 class="mt-3">María Rodríguez <i class="fas fa-cat text-muted"></i></h5>
+                                        <p class="testimonial-text">"La cirugía de mi gata 'Luna' fue un éxito. El Dr. Méndez es un profesional excepcional. ¡Totalmente recomendados! 👍"</p>
+                                    </div>
+                                </div>
+                                <!-- Testimonio 3 -->
+                                <div class="col-lg-3 col-md-6 d-none d-lg-block">
+                                    <div class="testimonial-card rainbow-border">
+                                        <img src="https://randomuser.me/api/portraits/men/50.jpg" class="testimonial-img heartbeat" alt="Cliente 3">
+                                        <h5 class="mt-3">Pedro González <i class="fas fa-dog text-muted"></i></h5>
+                                        <p class="testimonial-text">"La peluquería dejó a mi 'Toby' como una estrella de cine. El personal es muy amable y cuidadoso. ⭐⭐⭐⭐⭐"</p>
+                                    </div>
+                                </div>
+                                <!-- Testimonio 4 -->
+                                <div class="col-lg-3 col-md-6 d-none d-lg-block">
+                                    <div class="testimonial-card rainbow-border">
+                                        <img src="https://randomuser.me/api/portraits/women/51.jpg" class="testimonial-img heartbeat" alt="Cliente 4">
+                                        <h5 class="mt-3">Sofía Martinez <i class="fas fa-dove text-muted"></i></h5>
+                                        <p class="testimonial-text">"Finalmente un lugar que sabe tratar a mi cacatúa 'Paco'. La Dra. Gómez es una maravilla. 🦜❤️"</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="carousel-item">
+                           <div class="row justify-content-center gx-4">
+                                <!-- Testimonio 5 -->
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="testimonial-card rainbow-border">
+                                        <img src="https://randomuser.me/api/portraits/men/11.jpg" class="testimonial-img heartbeat" alt="Cliente 5">
+                                        <h5 class="mt-3">Carlos Sánchez <i class="fas fa-dog text-muted"></i></h5>
+                                        <p class="testimonial-text">"Atención de primera. Se nota el amor que tienen por los animales. Mi perro 'Max' los adora. ¡Excelente! 💯"</p>
+                                    </div>
+                                </div>
+                                <!-- Testimonio 6 -->
+                                <div class="col-lg-3 col-md-6 d-none d-md-block">
+                                    <div class="testimonial-card rainbow-border">
+                                        <img src="https://randomuser.me/api/portraits/women/12.jpg" class="testimonial-img heartbeat" alt="Cliente 6">
+                                        <h5 class="mt-3">Lucía Díaz <i class="fas fa-cat text-muted"></i></h5>
+                                        <p class="testimonial-text">"Siempre disponibles para una emergencia. Me salvaron de un buen susto con mi gatita 'Misha'. Eternamente agradecida. 🙏"</p>
+                                    </div>
+                                </div>
+                                <!-- Testimonio 7 -->
+                                <div class="col-lg-3 col-md-6 d-none d-lg-block">
+                                    <div class="testimonial-card rainbow-border">
+                                        <img src="https://randomuser.me/api/portraits/men/15.jpg" class="testimonial-img heartbeat" alt="Cliente 7">
+                                        <h5 class="mt-3">Fernando Castro <i class="fas fa-dog text-muted"></i></h5>
+                                        <p class="testimonial-text">"Las instalaciones son impecables y la tecnología es de punta. Se siente la calidad en cada detalle. ✨"</p>
+                                    </div>
+                                </div>
+                                <!-- Testimonio 8 -->
+                                <div class="col-lg-3 col-md-6 d-none d-lg-block">
+                                    <div class="testimonial-card rainbow-border">
+                                        <img src="https://randomuser.me/api/portraits/women/22.jpg" class="testimonial-img heartbeat" alt="Cliente 8">
+                                        <h5 class="mt-3">Elena Vargas <i class="fas-fa-dog text-muted"></i></h5>
+                                        <p class="testimonial-text">"La mejor clínica de la ciudad, sin duda. El trato es personalizado y siempre resuelven mis dudas. 🥰"</p>
+                                    </div>
+                                </div>
+                           </div>
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="carousel-item">
+                            <div class="row justify-content-center gx-4">
+                                <!-- Testimonio 9 -->
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="testimonial-card rainbow-border">
+                                        <img src="https://randomuser.me/api/portraits/men/44.jpg" class="testimonial-img heartbeat" alt="Cliente 9">
+                                        <h5 class="mt-3">Roberto Jimenez <i class="fas fa-otter text-muted"></i></h5>
+                                        <p class="testimonial-text">"¡Mi hurón 'Loki' está feliz con la Dra. Gómez! Es difícil encontrar expertos en exóticos. ¡Un tesoro! 💎"</p>
+                                    </div>
+                                </div>
+                                <!-- Testimonio 10 -->
+                                <div class="col-lg-3 col-md-6 d-none d-md-block">
+                                    <div class="testimonial-card rainbow-border">
+                                        <img src="https://randomuser.me/api/portraits/women/48.jpg" class="testimonial-img heartbeat" alt="Cliente 10">
+                                        <h5 class="mt-3">Ana Torres <i class="fas fa-cat text-muted"></i></h5>
+                                        <p class="testimonial-text">"Precios justos y un servicio que vale oro. No confío la salud de 'Pelusa' a nadie más. ¡Gracias equipo! 🎉"</p>
+                                    </div>
+                                </div>
+                                <!-- Placeholders para mantener el layout -->
+                                <div class="col-lg-3 col-md-6 d-none d-lg-block"></div>
+                                <div class="col-lg-3 col-md-6 d-none d-lg-block"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controles Externos -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================================================== -->
+        <!-- =================== CONTACTO ========================= -->
+        <!-- ====================================================== -->
+        <section id="contacto" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5 section-title">Contáctanos</h2>
+                <div class="row g-5">
+                    <div class="col-lg-5">
+                        <div class="contact-info-card text-center p-4 h-100 d-flex flex-column justify-content-center shadow">
+                            <h3 class="fw-bold">¿Emergencias? ¡Llámanos!</h3>
+                            <a href="tel:+18492724933" class="display-5 my-3 text-decoration-none contact-phone">(829) 272 4933</a>
+                            <p>Estamos disponibles 24/7 para emergencias.</p>
+                            <a href="https://wa.me/18492724933?text=Hola,%20quisiera%20agendar%20una%20cita%20en%20VetCare." target="_blank" class="btn btn-success btn-lg mt-3">
+                                <i class="fab fa-whatsapp me-2"></i> Chatea con nosotros en WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="p-4 bg-white shadow rounded">
+                            <h3 class="mb-4">Envíanos un mensaje</h3>
+                            <form id="contactForm" novalidate>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Tu Nombre</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Correo Electrónico</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Mensaje</label>
+                                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Enviar Mensaje</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ====================================================== -->
+    <!-- =================== FOOTER =========================== -->
+    <!-- ====================================================== -->
+    <footer class="text-white text-center py-4">
+        <div class="container">
+            <div class="mb-3">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="mb-2">
+                <p class="mb-1"><i class="fas fa-map-marker-alt me-2"></i>Av. auto pista duarte km 18, Santo Domingo Oeste, República Dominicana</p>
+                <p class="mb-1"><i class="fas fa-clock me-2"></i>Horario: Lunes a Sábado, 8:00 AM - 7:00 PM</p>
+            </div>
+            <p class="mb-0">© 2024 VetCare. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- ====================================================== -->
+    <!-- =================== MODAL ============================ -->
+    <!-- ====================================================== -->
+    <div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title" id="confirmationModalLabel">¡Listo! 💌</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p class="fs-5">Tu cliente de correo se está abriendo para que envíes tu mensaje. ¡Hemos preparado todo por ti! 🐾</p>
+                    <p>Si no se abre automáticamente, por favor revisa tu aplicación de correo.</p>
+                </div>
+                <div class="modal-footer border-0 justify-content-center">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Entendido</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
